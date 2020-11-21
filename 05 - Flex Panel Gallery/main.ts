@@ -11,7 +11,7 @@ function toggleOpen(this: HTMLDivElement): void {
 }
 
 // Wait for transition to end before adding another transition
-function toggleActive(e: TransitionEvent): void {
+function toggleActive(this: HTMLDivElement, e: TransitionEvent): void {
   // NOTE This will listen for all transition events.
   // console.log(e); // Shows all TranstionEvent objects
   // console.log(e); // TransitionEvent object
