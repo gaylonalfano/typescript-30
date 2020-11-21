@@ -1,7 +1,6 @@
 // Wrap entire code in IIFE function: https://github.com/tricinel/TypeScript30/blob/master/src/06%20-%20Type%20Ahead/main.ts
 (function() {
 
-
 // ===== Fetch our data and store in cities array
 const endpoint =
   "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json";
